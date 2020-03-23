@@ -1,0 +1,90 @@
+rm: cannot remove ‘errors.png’: No such file or directory
+Loading required package: beautier
+Loading required package: babette
+Loading required package: beastier
+Loading required package: mauricer
+Loading required package: tracerer
+Registered S3 method overwritten by 'pryr':
+  method      from
+  print.bytes Rcpp
+Saving 7 x 7 in image
+[1] "example_46/esses_gen.latex"      "example_46/esses_twin_gen.latex"
+
+real	26m9.882s
+user	16m9.325s
+sys	0m21.645s
+updating: example_46.R (deflated 54%)
+updating: scripts/ (stored 0%)
+updating: scripts/rerun.sh (deflated 45%)
+  adding: example_46/ (stored 0%)
+  adding: example_46/twin_alignment.png (deflated 7%)
+  adding: example_46/true_tree.png (deflated 55%)
+  adding: example_46/gen_twin.log (deflated 63%)
+  adding: example_46/gen_twin.xml.state (deflated 63%)
+  adding: example_46/gen.xml.state (deflated 61%)
+  adding: example_46/twin_tree.png (deflated 62%)
+  adding: example_46/gen_errors.csv (deflated 58%)
+  adding: example_46/errors.csv (deflated 62%)
+  adding: example_46/alignment_twin_evidence.fas (deflated 70%)
+  adding: example_46/twin_posterior_best.png (deflated 5%)
+  adding: example_46/gen_errors_twin.csv (deflated 58%)
+  adding: example_46/alignment_evidence.fas (deflated 67%)
+  adding: example_46/errors.png (deflated 19%)
+  adding: example_46/esses_gen.latex (deflated 41%)
+  adding: example_46/twin_error_violin_gen.png (deflated 14%)
+  adding: example_46/gen.xml (deflated 71%)
+  adding: example_46/true_alignment.png (deflated 7%)
+  adding: example_46/true_error_histogram_gen.png (deflated 76%)
+  adding: example_46/twin.newick (deflated 37%)
+  adding: example_46/gen_twin.xml (deflated 72%)
+  adding: example_46/alignment.fas (deflated 67%)
+  adding: example_46/gen.csv (deflated 58%)
+  adding: example_46/alignment_twin.fas (deflated 70%)
+  adding: example_46/gen.log (deflated 63%)
+  adding: example_46/gen_twin.trees (deflated 64%)
+  adding: example_46/true_error_violin_gen.png (deflated 12%)
+  adding: example_46/phylogeny.newick (deflated 38%)
+  adding: example_46/gen.trees (deflated 64%)
+  adding: example_46/esses_twin_gen.latex (deflated 41%)
+  adding: example_46/true_posterior_gen.png (deflated 2%)
+  adding: example_46/twin_error_histogram_gen.png (deflated 80%)
+  adding: example_46/twin_posterior_gen.png (deflated 5%)
+  adding: errors.png (deflated 19%)
+
+
+###############################################################################
+Peregrine Cluster
+Job 10286515 for user 'p230198'
+Finished at: Mon Mar 23 16:16:59 CET 2020
+
+Job details:
+============
+
+Name                : pirex46
+User                : p230198
+Partition           : gelifes
+Nodes               : pg-node211
+Cores               : 1
+State               : COMPLETED
+Submit              : 2020-03-23T15:50:47
+Start               : 2020-03-23T15:50:47
+End                 : 2020-03-23T16:16:58
+Reserved walltime   : 02:00:00
+Used walltime       : 00:26:11
+Used CPU time       : 00:16:31 (efficiency: 63.13%)
+% User (Computation): 97.81%
+% System (I/O)      :  2.19%
+Mem reserved        : 10G/node
+Max Mem used        : 928.74M (pg-node211)
+Max Disk Write      : 0.00  (pg-node211)
+Max Disk Read       : 112.64K (pg-node211)
+
+
+Acknowledgements:
+=================
+
+Please see this page for information about acknowledging Peregrine in your publications:
+
+https://wiki.hpc.rug.nl/peregrine/additional_information/scientific_output
+
+################################################################################
