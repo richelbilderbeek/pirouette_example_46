@@ -23,6 +23,8 @@ pir_params <- create_std_pir_params(folder_name = folder_name)
 
 # Only keep generative model
 pir_params$experiments <- pir_params$experiments[1]
+pir_params$evidence_filename <- NA
+pir_params$twinning_params$twin_evidence_filename <- NA
 
 if (is_testing) {
   pir_params <- shorten_pir_params(pir_params)
