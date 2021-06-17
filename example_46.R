@@ -40,8 +40,7 @@ pir_out <- pir_run(
 pir_outs <- list()
 pir_outs[[1]] <- pir_out
 pir_plots(pir_outs) +
-  ggtitle(paste0("pirouette example ", example_no)) +
-  ggsave("errors.png", width = 7, height = 7)
+  ggtitle(paste0("pirouette example ", example_no)); ggsave("errors.png", width = 7, height = 7)
 
 # Save results in folder(s) (that have no version version)
 pir_save(
